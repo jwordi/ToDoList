@@ -7,14 +7,21 @@ h1 {
   width: auto;
   height: auto;
   padding-left: 20px;
+  margin: 0px;
+  /* marginでページ上の余白を消した */
 }
 
+form {
+  padding-top: 20px;
+  margin-left: 20px;
+}
 ul {
   /* リストのこと */
   color: red;
   font-family: 'HG正楷書体-PRO';
   list-style: none;
   font-size: 40px;
+  padding: 20px 10px;
 }
 
 input {
@@ -30,4 +37,6 @@ button  {
 
 .footer {
   font-size: 60px;
+  background-color: #3f3f3f;
+  color: white;  
 }
