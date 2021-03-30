@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+}
+
+
 h1 {
   /* タイトル */
   color: blue;
@@ -6,8 +11,9 @@ h1 {
   background-color:#ddd;
   width: auto;
   height: auto;
-  padding-left: 20px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 30px;
   /* marginでページ上の余白を消した */
 }
 
@@ -38,5 +44,17 @@ button  {
 .footer {
   font-size: 60px;
   background-color: #3f3f3f;
-  color: white;  
+  width: auto;
+  color: white; 
+  padding-left: 24px;
+}
+
+.footerFixed {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
 }
